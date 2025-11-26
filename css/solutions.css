@@ -1,0 +1,112 @@
+
+/* 1 punto */
+
+.stats-container .stats-grid:first-of-type .stat-number::before {
+    content: "🔥 ";
+}
+
+/* 2 punto */
+
+.stats-container .stats-grid:nth-child(3) {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    
+}
+
+.stats-container .stats-grid:nth-child(3) .stat-number,
+.stats-container .stats-grid:nth-child(3) .stat-label {
+    color: white;
+}
+
+/* 3 punto */
+
+/* bonus */
+.stats-container .stats-grid {
+    transition: all 0.3s ease; 
+}
+
+.stats-container .stats-grid:hover {
+    transform: translateY(-5px);             
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);  
+}
+
+/* 4 punto */
+
+.workout-section .workout-plan:nth-child(3){
+
+background-color: lightyellow;
+border-left: 5px solid orange;
+}
+
+/* 5 punto */
+.workout-section .workout-plan:nth-child(2),
+.workout-section .workout-plan:nth-child(4) {
+    background-color: lightgreen;
+    border-left: 5px solid green;
+}
+
+/* 6 punto */
+.exercise-item:nth-child(2) .exercise-name::before,
+.exercise-item:nth-child(4) .exercise-name::before{
+    content: "⚡";
+}
+
+/* 7-8 punto */
+
+.goal-input-group input:focus,
+.goal-input-group select:focus{
+border: 5px solid blue; 
+box-shadow:  0 10px 20px rgba(45, 2, 240, 0.3);  
+  transition: all 0.3s ease; 
+  outline: none;
+}
+
+/* 9 punto */
+
+.save-btn:hover{
+    transform: translateY(-2px);
+    background-color: red;
+    box-shadow:  0 10px 20px rgba(250, 2, 118, 0.3);  
+}
+
+/* 10 punto */
+
+.progress-bar {
+    position: relative;              
+}
+
+.progress-fill {
+    position: relative;
+}
+
+.progress-fill::after {
+    content: "65%";                 
+    position: absolute;
+    right: 10px;                    
+    top: 50%;                        
+    transform: translateY(-50%);     
+    color: white;
+    font-weight: bold;
+}
+
+/* 11-12 punto */
+
+.nav-item:not(:first-of-type):hover{
+    background-color: black;
+    color: blue;
+}
+.nav-item:first-of-type {
+ background-color: black;
+    color: blue;
+}
+
+/* 13 punto */
+
+.quote-box p::before{
+    content: '"' ;
+    vertical-align: top;  
+}
+
+.quote-box p::after{
+    content: '"' ;
+    vertical-align: bottom;  
+}
